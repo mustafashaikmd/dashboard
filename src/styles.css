@@ -1,0 +1,245 @@
+.app-container {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    font-family: sans-serif;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    max-height: 80px; 
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .user-icon {
+    background-color: #ddd;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #eee;
+    padding: 20px;
+  }
+  
+  .welcome {
+    margin-bottom: 20px;
+    background-color: bisque;
+  }
+  
+  .welcome h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .wallet {
+    margin-bottom: 20px;
+    background-color: bisque;
+  }
+  
+  .wallet p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .pending-actions{
+    background-color: bisque;
+  }
+
+  .pending-actions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pending-actions li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .pending-actions li p {
+    margin: 0;
+  }
+  
+  .dashboard {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .frequently-used {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    flex: 1;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-details {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-summary {
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .order-tile {
+    background-color: antiquewhite;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .order-tile h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .order-tile p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .chart-section {
+    display: flex;
+    gap: 20px;
+    height: 40vh;
+  }
+  
+  .chart-container {
+    flex: 1;
+    height: 270px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .test{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .test p{
+    font-size: 30px;
+    top: 0;
+  }
+
+  .box{
+    font-size: 35px;
+  }
+
+  
